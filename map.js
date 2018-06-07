@@ -11,22 +11,22 @@ function map(arr, action) {
   return newArr;
 }
 
-var cool = map(words, function(word) {
+var strLength = map(words, function(word) {
   return word.length;
 });
 
-console.log(cool);
+console.log(strLength);
 
 
-var cool1 = map(words, function(word) {
+var strUpperCase = map(words, function(word) {
   return word.toUpperCase();
 });
 
-console.log(cool1);
+console.log(strUpperCase);
 
-var cool2 = map(words, function(word) {
+var strReverse = map(words, function(word) {
   return word.split('').reverse().join('');
 });
 
-console.log(cool2);
+console.log(strReverse);
 
